@@ -1,0 +1,55 @@
+# macOS
+.DS_Store
+.Trashes
+.AppleDouble
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pycache/
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+venv/
+.venv/
+env/
+ENV/
+.python-version
+.pytest_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+*.cover
+*.pyproj
+.env
+.env.* 
+
+# Go
+bin/
+pkg/
+*.exe
+*.test
+coverage.out
+# module cache (optional — usually commit go.sum)
+GOMODCACHE/
+
+# Go vendor (if you use vendoring, don't ignore vendor/)
+vendor/
+
+# IDEs / editors
+.vscode/
+.idea/
+*.iml
+*.swp
+
+# Logs and temp
+*.log
+*.tmp
+*.temp
+
+# Misc
+Thumbs.db
