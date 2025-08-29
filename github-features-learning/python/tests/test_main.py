@@ -1,10 +1,12 @@
 import unittest
-from src.main import your_function  # Replace with the actual function you want to test
+from src.main import your_function
+
 
 class TestMain(unittest.TestCase):
 
     def test_your_function(self):
-        self.assertEqual(your_function(args), expected_result)  # Replace with actual arguments and expected result
+        self.assertEqual(your_function(), "Hello, GitHub features learning!")
+
 
 if __name__ == '__main__':
     unittest.main()
